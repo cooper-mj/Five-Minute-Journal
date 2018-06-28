@@ -106,7 +106,7 @@ def main():
 		usage_message()
 		return
 
-	journal = open("morningjournal.txt", "a")
+	journal = open("fiveminutejournal.txt", "a")
 
 	if sys.argv[1] == "morning":
 		morning_routine(journal)
